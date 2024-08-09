@@ -6,6 +6,7 @@ import useAppContext from "../hooks/useAppContext"
 
 const Homepage = () => {
     const {notes} = useAppContext()
+    document.title = "Pro Notes"
   return (
     <div className='space-y-5'>
         <div>

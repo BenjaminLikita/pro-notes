@@ -9,8 +9,8 @@ const NotesViewPage = () => {
     const {getNote, deleteNote} = useAppContext()
     const note = getNote(parseInt(id!))
     const navigate = useNavigate()
-
     if(!note) return <h1>Note does not Exist...</h1>
+    if(note.title) document.title = note.title
 
     const deleteCurrentNote = () => {
       deleteNote(note.id)
