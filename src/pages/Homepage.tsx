@@ -10,7 +10,7 @@ const Homepage = () => {
   return (
     <div className='space-y-5'>
         <div>
-            <span className="text-sm">Welcome to Expert Notes</span>
+            <span className="text-sm">Welcome to Pro Notes</span>
             <h1 className="text-3xl font-bold">Write to your Hearts Content...</h1>
         </div>
         <hr />
